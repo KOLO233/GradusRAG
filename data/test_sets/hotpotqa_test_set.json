@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "expected_answer": "yes",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "expected_answer": "Chief of Protocol",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "expected_answer": "Animorphs",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "expected_answer": "no",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "expected_answer": "Greenwich Village, New York City",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "expected_answer": "YG Entertainment",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "expected_answer": "Eenasul Fateh",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "expected_answer": "3,677 seated",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "expected_answer": "Terry Richardson",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are Local H and For Against both from the United States?",
+    "expected_answer": "yes",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "expected_answer": "Kansas Song",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+    "expected_answer": "David Weissman",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "expected_answer": "1999",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+    "expected_answer": "no",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "expected_answer": "from 1986 to 2013",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "expected_answer": "9,984",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "expected_answer": "the North Atlantic Conference",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+    "expected_answer": "yes",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "expected_answer": "1969 until 1974",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "expected_answer": "Robert Erskine Childers DSC",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "expected_answer": "Pedro Rodríguez",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "expected_answer": "Sonic",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "expected_answer": "keyboard function keys",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+    "expected_answer": "Badly Drawn Boy",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "expected_answer": "World's Best Goalkeeper",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "expected_answer": "Barton Lee Hazlewood",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "expected_answer": "1838",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are both Dictyosperma, and Huernia described as a genus?",
+    "expected_answer": "yes",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "expected_answer": "Henry J. Kaiser",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "expected_answer": "Arena of Khazan",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "expected_answer": "2000",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "expected_answer": "Fujioka, Gunma",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "expected_answer": "Charles Eugène",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+    "expected_answer": "no",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "expected_answer": "Letters to Cleo",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "expected_answer": "October 1922",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "expected_answer": "2000",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "expected_answer": "World War II",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+    "expected_answer": "no",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "expected_answer": "New York City",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "expected_answer": "Scotch Collie",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+    "expected_answer": "Mumbai",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "expected_answer": "1962",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "expected_answer": "sovereignty",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "expected_answer": "Nelson Rockefeller",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "expected_answer": "Yellowcraig",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "expected_answer": "Phil Spector",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "expected_answer": "Organizations could come together to address global issues",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Are Ferocactus and Silene both types of plant?",
+    "expected_answer": "yes",
+    "expected_level": "L2",
+    "ground_truth_chunks": [],
+    "category": "比较",
+    "source": "hotpotqa",
+    "context": ""
+  },
+  {
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "expected_answer": "English Electric Canberra",
+    "expected_level": "L3",
+    "ground_truth_chunks": [],
+    "category": "因果推理",
+    "source": "hotpotqa",
+    "context": ""
+  }
+]

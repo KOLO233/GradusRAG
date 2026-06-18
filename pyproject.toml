@@ -1,0 +1,51 @@
+[project]
+name = "gradusrag"
+version = "0.1.0"
+description = "面向专业领域的多级查询理解与混合增强 RAG 问答系统"
+requires-python = ">=3.10"
+dependencies = [
+    # Web 框架
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "python-multipart>=0.0.6",
+    # LangChain 生态
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-community>=0.3.0",
+    "langchain-huggingface>=0.1.0",
+    "langgraph>=0.2.0",
+    # 向量数据库
+    "pymilvus>=2.4.0",
+    # 文档处理
+    "pymupdf>=1.24.0",
+    "python-docx>=1.1.0",
+    "markdown>=3.5",
+    # 嵌入与重排
+    "sentence-transformers>=3.0.0",
+    # 图存储
+    "networkx>=3.2",
+    # 配置与工具
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.5.0",
+    # 数据库
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "redis>=5.0.0",
+    # 评估
+    "ragas>=0.2.0",
+    # 前端
+    "streamlit>=1.30.0",
+    # HTTP 客户端
+    "httpx>=0.25.0",
+    # 日志
+    "structlog>=24.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.2.0",
+]

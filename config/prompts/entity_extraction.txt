@@ -1,0 +1,16 @@
+请从以下文本中提取实体和它们之间的关系。
+
+实体类型：{entity_types}
+
+文本：
+{text}
+
+请以 JSON 格式输出：
+{{
+  "entities": [
+    {{"name": "实体名", "type": "实体类型", "description": "简短描述"}}
+  ],
+  "relations": [
+    {{"source": "源实体", "target": "目标实体", "relation_type": "关系类型", "description": "关系描述"}}
+  ]
+}}

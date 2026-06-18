@@ -1,0 +1,16 @@
+{
+  "total": 1,
+  "success": 1,
+  "skipped": 0,
+  "failed": 0,
+  "target_chars": 15000,
+  "results": [
+    {
+      "file": "48_绿色金融与可持续发展.md",
+      "chars": 13363,
+      "seconds": 956.1,
+      "status": "done"
+    }
+  ],
+  "timestamp": "2026-06-16T20:40:13.403838"
+}

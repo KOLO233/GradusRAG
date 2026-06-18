@@ -1,0 +1,2632 @@
+{
+  "LightRAG_Baseline": {
+    "summary": {
+      "total": 100,
+      "hit_rate": 1.0,
+      "mrr": 0.9703333333333333,
+      "faithfulness": 0.87,
+      "answer_relevance": 0.875
+    },
+    "details": [
+      {
+        "question": "什么是人工智能？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 22703.000000000004
+      },
+      {
+        "question": "什么是半监督学习？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 5000.0
+      },
+      {
+        "question": "什么是梯度消失？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 14843.999999999995
+      },
+      {
+        "question": "什么是检索增强生成（RAG）的核心思想？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 6125.0
+      },
+      {
+        "question": "在机器学习中，强化学习（RL）属于哪一种范式？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8609.999999999956
+      },
+      {
+        "question": "PPO（Proximal Policy Optimization）算法由哪家机构提出？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 5577.9999999999745
+      },
+      {
+        "question": "策略梯度方法（如REINFORCE）的核心优化对象是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9297.000000000025
+      },
+      {
+        "question": "根据梯度下降中每次使用的训练数据量，可以将其分为哪三类？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10110.000000000015
+      },
+      {
+        "question": "Adam优化器的默认超参数 β₁、β₂ 和 ε 分别是多少？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 3859.999999999957
+      },
+      {
+        "question": "什么是单周期策略？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9156.999999999982
+      },
+      {
+        "question": "在混合精度训练中，梯度缩放技术的作用是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7703.000000000031
+      },
+      {
+        "question": "什么是知识蒸馏（Knowledge Distillation）？它的核心思想是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7437.999999999988
+      },
+      {
+        "question": "什么是GGML/GGUF？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 5797.0000000000255
+      },
+      {
+        "question": "在文档处理流水线中，文本分块有哪些主要策略？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 6092.999999999961
+      },
+      {
+        "question": "在RAG系统中，文档分块的经验平衡点是多少token？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8094.000000000051
+      },
+      {
+        "question": "在检索前，常见的查询改写技术包括哪几种？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 13547.000000000025
+      },
+      {
+        "question": "在RAG系统中，Cross-Encoder 重排序器相比 Bi-Encoder 在相关性判断的精度上通常能提升多少？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 6547.0000000000255
+      },
+      {
+        "question": "根据文档，1型糖尿病和2型糖尿病在发病机制和治疗上有哪些主要区别？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 14282.00000000004
+      },
+      {
+        "question": "高血压的诊断标准是什么？请列出其三级分类的血压范围。",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8875.0
+      },
+      {
+        "question": "糖尿病的诊断需要满足哪些具体指标？并请简要说明长期高血糖可能带来的两类主要并发症风险。",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12937.000000000011
+      },
+      {
+        "question": "社区获得性肺炎（CAP）最常见的病原体是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12203.000000000087
+      },
+      {
+        "question": "CURB-65评分包括哪五个评估项目？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 0.2,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12452.999999999975
+      },
+      {
+        "question": "药代动力学相互作用主要影响药物在体内的哪些过程？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 6500.0
+      },
+      {
+        "question": "CYP3A4在药物代谢中扮演什么角色？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11405.999999999949
+      },
+      {
+        "question": "什么是X线检查？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7922.0000000000255
+      },
+      {
+        "question": "弱人工智能与强人工智能有什么核心区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 6233.999999999924
+      },
+      {
+        "question": "监督学习和无监督学习的主要区别是什么？并各举一个应用场景。",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 15375.0
+      },
+      {
+        "question": "监督学习和无监督学习在数据要求和任务类型上有何主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10359.9999999999
+      },
+      {
+        "question": "梯度消失和梯度爆炸有什么主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10655.999999999949
+      },
+      {
+        "question": "卷积神经网络（CNN）和循环神经网络（RNN）分别适用于处理什么类型的数据？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9031.000000000176
+      },
+      {
+        "question": "BERT和GPT在预训练范式和主要任务类型上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11265.0000000001
+      },
+      {
+        "question": "在RAG的检索阶段，密集检索和稀疏检索各自的主要优势是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9406.000000000176
+      },
+      {
+        "question": "强化学习与监督学习的根本区别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9797.000000000025
+      },
+      {
+        "question": "策略梯度方法与基于价值函数的方法（如Q-Learning）在核心优化目标上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11109.000000000151
+      },
+      {
+        "question": "Adam优化器与它的改进版本AdamW在权重衰减（正则化）的实现方式上有何关键区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11375.0
+      },
+      {
+        "question": "混合精度训练与梯度累积分别主要解决什么问题？它们的核心思想有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 13047.000000000025
+      },
+      {
+        "question": "模型剪枝中的非结构化剪枝和结构化剪枝，在稀疏度、硬件需求和加速效果方面有何区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 8031.999999999925
+      },
+      {
+        "question": "模型量化中的PTQ和QAT两种方法，在操作复杂度和预期精度上分别有什么特点？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10531.000000000176
+      },
+      {
+        "question": "在线推理和离线批处理在适用场景和延迟要求上有什么区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8109.000000000151
+      },
+      {
+        "question": "Milvus、Chroma和FAISS这三种向量检索工具在适用规模和部署方式上有哪些主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11500.0
+      },
+      {
+        "question": "稠密检索与稀疏检索的核心区别是什么？混合检索是如何结合两者优势的？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10155.999999999949
+      },
+      {
+        "question": "在 RAG 系统评估中，检索质量评估和生成质量评估在所需的数据标注和实现方法上主要有什么不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19516.000000000076
+      },
+      {
+        "question": "糖尿病的微血管并发症与大血管并发症在具体疾病表现上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7452.9999999999745
+      },
+      {
+        "question": "在治疗糖尿病合并高血压患者时，为什么首选ACE抑制剂或ARB类药物？它们与其他降压药有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 10593.000000000075
+      },
+      {
+        "question": "β-内酰胺类抗生素和大环内酯类抗生素在作用机制上有何区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10202.999999999975
+      },
+      {
+        "question": "药代动力学相互作用和药效学相互作用的根本区别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9500.0
+      },
+      {
+        "question": "CYP3A4抑制剂和诱导剂对合用药物血浓度的影响有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8686.999999999898
+      },
+      {
+        "question": "文档中提到的协同作用和拮抗作用，其效果分别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7188.000000000102
+      },
+      {
+        "question": "寻常型间质性肺炎（UIP）和非特异性间质性肺炎（NSIP）在HRCT上的表现有什么区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11547.000000000025
+      },
+      {
+        "question": "MRI与CT相比，在软组织对比度和辐射使用上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11359.9999999999
+      },
+      {
+        "question": "为什么人工智能在经历了两次“AI寒冬”后，近年来能够迎来第三次发展浪潮？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 8827.999999999975
+      },
+      {
+        "question": "为什么在机器学习中，监督学习需要带标签的数据，而无监督学习则不需要？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9015.999999999849
+      },
+      {
+        "question": "为什么深度神经网络在使用Sigmoid或Tanh激活函数时容易出现梯度消失问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10360.000000000127
+      },
+      {
+        "question": "Transformer中的自注意力（Self-Attention）机制是如何计算序列内部各位置之间的关联度的？请解释其工作原理。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 10467.999999999847
+      },
+      {
+        "question": "为什么 RAG 技术能够有效减少大语言模型生成虚假信息（即‘幻觉’）的问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8827.999999999975
+      },
+      {
+        "question": "RAG 系统中采用的‘混合检索’策略是如何工作的，它为何能提升检索效果？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 9217.999999999847
+      },
+      {
+        "question": "在深度Q网络（DQN）中，经验回放（Experience Replay）具体是如何“打破样本之间的时间相关性”的？为什么这种打破很重要？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 10139.999999999873
+      },
+      {
+        "question": "文档中提到PPO的核心思想是“限制每次策略更新的幅度”。为什么在策略梯度方法中，需要特别防范“因步长过大导致性能崩溃”的问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 15702.999999999975
+      },
+      {
+        "question": "为什么在混合精度训练中，梯度缩放技术是必需的，它的工作原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8579.000000000178
+      },
+      {
+        "question": "梯度累积技术是如何解决GPU显存不足以容纳大batch size这个问题的？请解释其具体机制。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10907.000000000153
+      },
+      {
+        "question": "为什么 vLLM 的 PagedAttention 技术能显著提升大语言模型（LLM）的吞吐量？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11577.999999999975
+      },
+      {
+        "question": "为什么文档指出，尽管知识蒸馏损失函数中包含了交叉熵损失（CE），但教师模型的“暗知识”是更关键的监督信号？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12500.0
+      },
+      {
+        "question": "为什么在RAG系统中，分块大小的选择（如512-1024 token）通常被认为是‘较好的平衡点’？请结合文档中关于不同查询类型的需求进行解释。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 17030.99999999995
+      },
+      {
+        "question": "请解释‘混合检索’通过融合稠密检索和稀疏检索，为什么通常能比单独使用任一方法获得更好（10-20%）的检索效果？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10280.999999999949
+      },
+      {
+        "question": "为什么在评估 RAG 系统的检索质量时，通常需要为每道问题预先标注“标准答案文档”（ground truth），并且这个过程成本较高？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7297.0000000000255
+      },
+      {
+        "question": "文档中提到的 RAGAS 框架是如何实现自动计算像 Faithfulness、Answer Relevance 这类难以量化指标的？其核心工作原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11375.0
+      },
+      {
+        "question": "对于没有标准答案的开放式问题，在端到端评估 RAG 系统时，文档建议使用什么方法来评价回答质量？这种方法是如何工作的？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 7766.000000000076
+      },
+      {
+        "question": "为什么2型糖尿病患者体内胰岛素水平可能正常甚至偏高，但血糖仍然升高？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8297.000000000025
+      },
+      {
+        "question": "为什么ACE抑制剂和ARB类药物被推荐用于糖尿病合并高血压的患者？请解释其药理和生理学依据。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 14875.0
+      },
+      {
+        "question": "β-内酰胺类抗生素为什么被描述为时间依赖性抗生素？这对其临床用药方案有什么指导意义？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 11233.999999999924
+      },
+      {
+        "question": "请解释CURB-65评分中各项指标（如意识障碍、呼吸频率快等）与肺炎严重程度之间的病理生理联系。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 10297.000000000025
+      },
+      {
+        "question": "为什么硝酸甘油通常采用舌下含服而不是口服给药？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10547.000000000025
+      },
+      {
+        "question": "为什么肾功能不全的患者使用经肾排泄的药物时，通常需要调整给药剂量或间隔？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12686.999999999898
+      },
+      {
+        "question": "为什么对治疗窗窄的药物（如华法林）需要进行治疗药物监测（TDM）？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 10670.999999999822
+      },
+      {
+        "question": "为什么克拉霉素与某些药物（如他汀类降脂药）合用时需要特别谨慎？其药代动力学原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12266.000000000076
+      },
+      {
+        "question": "如果在机器学习项目中省略数据预处理步骤，可能会导致哪些问题？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 16735.000000000127
+      },
+      {
+        "question": "假设所有现有的AI系统都从弱人工智能升级为强人工智能，会对自动驾驶领域产生哪些根本性改变？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 19405.99999999995
+      },
+      {
+        "question": "如果在一个机器学习项目中，特征工程做得非常差，但其他步骤（如数据收集、模型选择、训练等）都完美执行，最终模型的性能会如何？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 8452.999999999975
+      },
+      {
+        "question": "如果早期的感知机模型能够直接解决像XOR这样的非线性问题，那么后续深度学习的发展重点（例如多层感知机和非线性激活函数的引入）可能会如何演变？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 9047.000000000025
+      },
+      {
+        "question": "假设GPT模型放弃其单向解码器架构，转而采用类似BERT的双向编码器架构，这会如何影响它原本擅长的生成型任务（如文本生成、对话）的效果？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 16405.99999999995
+      },
+      {
+        "question": "假设在一个法律文档问答系统中，RAG 系统的数据摄入阶段采用了简单的‘固定大小分块’策略（例如每512个字符切分一次），可能会对最终的问答质量产生哪些潜在的负面影响？请基于文档内容进行推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19875.0
+      },
+      {
+        "question": "文档中提到的‘查询重写’技术是为了解决‘原始查询检索效果不好’的问题。请推断，如果系统完全不使用查询重写，在面对用户一个非常具体、包含大量专业术语的查询时，可能会遇到什么困难？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 18327.999999999975
+      },
+      {
+        "question": "在马尔可夫决策过程（MDP）的框架下，如果将折扣因子γ严格设置为1（γ=1），会对学习过程和智能体的目标产生什么根本性影响？这会带来哪些实际挑战？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 10672.000000000025
+      },
+      {
+        "question": "文档指出REINFORCE算法“方差很大，导致训练不稳定”。假设在设计一个基于策略梯度的算法时，完全不使用Actor-Critic架构中的Critic作为基线（baseline），这会对训练效率产生何种具体影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 11782.000000000153
+      },
+      {
+        "question": "Q-Learning被描述为一种off-policy算法，其学习的目标策略（贪心策略）和行为策略（ε-贪心策略）不同。这种分离带来的最核心的优势是什么？如果强行将Q-Learning改为on-policy，可能会损失掉哪项关键能力？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 11750.0
+      },
+      {
+        "question": "假设我们完全不使用梯度缩放技术，直接在混合精度训练中应用FP16，可能会对模型训练产生什么具体影响？请基于文档知识推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 12202.999999999975
+      },
+      {
+        "question": "如果梯度累积技术不存在，在训练一个参数量巨大但显存有限的模型时，会面临什么困境？这对模型的泛化能力可能有什么潜在影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 16250.0
+      },
+      {
+        "question": "在动态损失缩放策略中，如果模型在训练中频繁发生梯度爆炸（导致inf/nan），这对缩放因子的调整和整体训练进程会产生什么连锁影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 14297.000000000025
+      },
+      {
+        "question": "如果一种大语言模型量化技术在理论上能够做到在量化后精度损失为零，这可能会对模型压缩和部署的生态产生哪些根本性影响？请基于文档中提到的量化技术背景进行推理。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 22922.000000000025
+      },
+      {
+        "question": "假设某团队开发了一种新的结构化剪枝技术，能够在移除模型中大部分注意力头和层的同时，性能损失极小，且无需对硬件做任何适配。这种技术如果普及，会对文档中提到的“服务化架构”中的在线推理和流式推理场景产生哪些直接影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 33891.00000000007
+      },
+      {
+        "question": "假设一家初创公司计划为海外客户提供基于大语言模型的实时翻译和文档分析服务。他们拥有一定的 GPU 算力但预算有限，并且希望为用户提供流畅的实时交互体验（如聊天翻译）。请结合文档中涉及的模型压缩、推理加速和服务化架构知识，为他们设计一个简要的技术选型与部署方案，并说明理由。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 23342.999999999847
+      },
+      {
+        "question": "如果一个RAG系统为了极致提升召回率，决定仅采用HyDE技术进行查询改写，而不考虑延迟和成本。根据文档内容，这可能会对系统的哪些方面产生负面影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 13079.000000000178
+      },
+      {
+        "question": "假设有一项技术突破，能够将Milvus在大规模数据下的资源消耗降低到接近FAISS的水平。根据文档内容，这会对实际系统中向量数据库的选型策略产生什么主要影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 20860.000000000127
+      },
+      {
+        "question": "文档指出‘语义分块’在主题转换处切分，效果最好但计算开销大。如果在一个对延迟要求极高的实时RAG系统中，又必须保持较高的检索语义准确性，你认为可以采用何种折中的工程方案？请基于文档中的其他技术进行推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 20514.999999999418
+      },
+      {
+        "question": "假设在一个 RAG 系统评估项目中，由于隐私或成本原因，无法为测试集标注任何“标准答案文档”。这会对评估方案的设计产生哪些根本性影响？我们还能从哪些角度评估系统？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19094.00000000005
+      },
+      {
+        "question": "文档指出 RAGAS 之所以流行，是因为它用 LLM 作为评估器来自动计算生成质量指标。假设我们强制要求 RAGAS 不使用任何 LLM，只能基于明确规则（如关键词匹配、句子长度统计）来评估 Faithfulness（忠诚度）和 Answer Relevance（相关性），你认为这会导致什么后果？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 22686.999999999898
+      },
+      {
+        "question": "假设一种新情况：某人的1型糖尿病并非由自身免疫系统破坏胰岛β细胞引起，而是β细胞天生发育不全。根据文档对两种类型糖尿病的描述，这种情况在临床表现和治疗需求上，会更接近1型还是2型糖尿病？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 13563.000000000102
+      },
+      {
+        "question": "如果大环内酯类抗生素没有文档中提到的“较长的抗生素后效应（PAE）”，那么像阿奇霉素这类药物的临床给药方案（如短疗程）是否需要改变？请推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 18375.0
+      },
+      {
+        "question": "假设通过基因工程技术使一种细菌的青霉素结合蛋白（PBP）结构发生改变，导致其对所有β-内酰胺类抗生素的亲和力都显著下降。这种细菌感染会导致文档中提到的哪类抗生素基本失效？治疗上可能需要转向哪类作用机制完全不同的抗生素？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 15188.000000000102
+      },
+      {
+        "question": "文档指出，UKPDS研究证实HbA1c每降低1%，微血管并发症风险降低约37%。假设这项研究的结论被推翻，血糖控制与微血管并发症风险降低无关。这对糖尿病治疗的核心目标和药物选择策略会产生什么根本性影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 21625.0
+      }
+    ]
+  },
+  "GradusRAG": {
+    "summary": {
+      "total": 100,
+      "hit_rate": 0.99,
+      "mrr": 0.8889999999999999,
+      "faithfulness": 0.36,
+      "answer_relevance": 0.935,
+      "classification_accuracy": 0.83
+    },
+    "details": [
+      {
+        "question": "什么是人工智能？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 31327.99999999952,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是半监督学习？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 27094.00000000005,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是梯度消失？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 28561.999999999898,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是检索增强生成（RAG）的核心思想？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 23250.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在机器学习中，强化学习（RL）属于哪一种范式？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 18375.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "PPO（Proximal Policy Optimization）算法由哪家机构提出？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 14250.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "策略梯度方法（如REINFORCE）的核心优化对象是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 27780.99999999995,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "根据梯度下降中每次使用的训练数据量，可以将其分为哪三类？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 21532.000000000153,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "Adam优化器的默认超参数 β₁、β₂ 和 ε 分别是多少？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 40703.00000000043,
+        "predicted_level": "L2",
+        "level_correct": false
+      },
+      {
+        "question": "什么是单周期策略？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 22250.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在混合精度训练中，梯度缩放技术的作用是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 32063.000000000102,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是知识蒸馏（Knowledge Distillation）？它的核心思想是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19532.000000000153,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是GGML/GGUF？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 29546.99999999957,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在文档处理流水线中，文本分块有哪些主要策略？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 38811.9999999999,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在RAG系统中，文档分块的经验平衡点是多少token？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 20890.99999999962,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在检索前，常见的查询改写技术包括哪几种？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 27686.999999999898,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "在RAG系统中，Cross-Encoder 重排序器相比 Bi-Encoder 在相关性判断的精度上通常能提升多少？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 43375.0,
+        "predicted_level": "L2",
+        "level_correct": false
+      },
+      {
+        "question": "根据文档，1型糖尿病和2型糖尿病在发病机制和治疗上有哪些主要区别？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 47546.00000000028,
+        "predicted_level": "L2",
+        "level_correct": false
+      },
+      {
+        "question": "高血压的诊断标准是什么？请列出其三级分类的血压范围。",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 18375.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "糖尿病的诊断需要满足哪些具体指标？并请简要说明长期高血糖可能带来的两类主要并发症风险。",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 26235.000000000582,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "社区获得性肺炎（CAP）最常见的病原体是什么？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 16969.00000000005,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "CURB-65评分包括哪五个评估项目？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 0.2,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 39672.00000000048,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "药代动力学相互作用主要影响药物在体内的哪些过程？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19609.00000000038,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "CYP3A4在药物代谢中扮演什么角色？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 19875.0,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "什么是X线检查？",
+        "expected_level": "L1",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 25265.99999999962,
+        "predicted_level": "L1",
+        "level_correct": true
+      },
+      {
+        "question": "弱人工智能与强人工智能有什么核心区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 47438.0000000001,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "监督学习和无监督学习的主要区别是什么？并各举一个应用场景。",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 59703.99999999972,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "监督学习和无监督学习在数据要求和任务类型上有何主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 42905.99999999995,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "梯度消失和梯度爆炸有什么主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 54077.99999999952,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "卷积神经网络（CNN）和循环神经网络（RNN）分别适用于处理什么类型的数据？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 88577.99999999952,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "BERT和GPT在预训练范式和主要任务类型上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 56657.00000000015,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "在RAG的检索阶段，密集检索和稀疏检索各自的主要优势是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 39578.00000000043,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "强化学习与监督学习的根本区别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 26234.999999999673,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "策略梯度方法与基于价值函数的方法（如Q-Learning）在核心优化目标上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 49561.9999999999,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "Adam优化器与它的改进版本AdamW在权重衰减（正则化）的实现方式上有何关键区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 59469.00000000005,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "混合精度训练与梯度累积分别主要解决什么问题？它们的核心思想有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 69577.99999999952,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "模型剪枝中的非结构化剪枝和结构化剪枝，在稀疏度、硬件需求和加速效果方面有何区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 54453.00000000043,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "模型量化中的PTQ和QAT两种方法，在操作复杂度和预期精度上分别有什么特点？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 40859.99999999967,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "在线推理和离线批处理在适用场景和延迟要求上有什么区别？",
+        "expected_level": "L2",
+        "hit_rate": 0.0,
+        "mrr": 0.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 69265.99999999962,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "Milvus、Chroma和FAISS这三种向量检索工具在适用规模和部署方式上有哪些主要区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 52265.99999999962,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "稠密检索与稀疏检索的核心区别是什么？混合检索是如何结合两者优势的？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.2,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 36500.0,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "在 RAG 系统评估中，检索质量评估和生成质量评估在所需的数据标注和实现方法上主要有什么不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 77905.99999999994,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "糖尿病的微血管并发症与大血管并发症在具体疾病表现上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 52952.99999999952,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "在治疗糖尿病合并高血压患者时，为什么首选ACE抑制剂或ARB类药物？它们与其他降压药有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 53313.0000000001,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "β-内酰胺类抗生素和大环内酯类抗生素在作用机制上有何区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 52155.99999999995,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "药代动力学相互作用和药效学相互作用的根本区别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 68375.0,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "CYP3A4抑制剂和诱导剂对合用药物血浓度的影响有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 45344.00000000005,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "文档中提到的协同作用和拮抗作用，其效果分别是什么？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 56765.99999999962,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "寻常型间质性肺炎（UIP）和非特异性间质性肺炎（NSIP）在HRCT上的表现有什么区别？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 44859.99999999876,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "MRI与CT相比，在软组织对比度和辐射使用上有何不同？",
+        "expected_level": "L2",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 54453.00000000134,
+        "predicted_level": "L2",
+        "level_correct": true
+      },
+      {
+        "question": "为什么人工智能在经历了两次“AI寒冬”后，近年来能够迎来第三次发展浪潮？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 78827.99999999952,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么在机器学习中，监督学习需要带标签的数据，而无监督学习则不需要？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 59811.9999999999,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么深度神经网络在使用Sigmoid或Tanh激活函数时容易出现梯度消失问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 60015.99999999962,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "Transformer中的自注意力（Self-Attention）机制是如何计算序列内部各位置之间的关联度的？请解释其工作原理。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 101014.99999999942,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么 RAG 技术能够有效减少大语言模型生成虚假信息（即‘幻觉’）的问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 75610.00000000058,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "RAG 系统中采用的‘混合检索’策略是如何工作的，它为何能提升检索效果？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 41000.0,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "在深度Q网络（DQN）中，经验回放（Experience Replay）具体是如何“打破样本之间的时间相关性”的？为什么这种打破很重要？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 72750.0,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "文档中提到PPO的核心思想是“限制每次策略更新的幅度”。为什么在策略梯度方法中，需要特别防范“因步长过大导致性能崩溃”的问题？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 65890.99999999962,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么在混合精度训练中，梯度缩放技术是必需的，它的工作原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 86140.99999999962,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "梯度累积技术是如何解决GPU显存不足以容纳大batch size这个问题的？请解释其具体机制。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 64702.99999999952,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么 vLLM 的 PagedAttention 技术能显著提升大语言模型（LLM）的吞吐量？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 66734.99999999876,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么文档指出，尽管知识蒸馏损失函数中包含了交叉熵损失（CE），但教师模型的“暗知识”是更关键的监督信号？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 76000.0,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么在RAG系统中，分块大小的选择（如512-1024 token）通常被认为是‘较好的平衡点’？请结合文档中关于不同查询类型的需求进行解释。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 71219.00000000096,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "请解释‘混合检索’通过融合稠密检索和稀疏检索，为什么通常能比单独使用任一方法获得更好（10-20%）的检索效果？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 77764.99999999942,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么在评估 RAG 系统的检索质量时，通常需要为每道问题预先标注“标准答案文档”（ground truth），并且这个过程成本较高？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 93077.99999999952,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "文档中提到的 RAGAS 框架是如何实现自动计算像 Faithfulness、Answer Relevance 这类难以量化指标的？其核心工作原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 41563.0000000001,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "对于没有标准答案的开放式问题，在端到端评估 RAG 系统时，文档建议使用什么方法来评价回答质量？这种方法是如何工作的？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 32202.99999999952,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "为什么2型糖尿病患者体内胰岛素水平可能正常甚至偏高，但血糖仍然升高？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 74281.00000000086,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么ACE抑制剂和ARB类药物被推荐用于糖尿病合并高血压的患者？请解释其药理和生理学依据。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 96469.00000000096,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "β-内酰胺类抗生素为什么被描述为时间依赖性抗生素？这对其临床用药方案有什么指导意义？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 76578.99999999972,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "请解释CURB-65评分中各项指标（如意识障碍、呼吸频率快等）与肺炎严重程度之间的病理生理联系。",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 44156.99999999924,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "为什么硝酸甘油通常采用舌下含服而不是口服给药？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 64218.99999999914,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么肾功能不全的患者使用经肾排泄的药物时，通常需要调整给药剂量或间隔？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 97046.00000000028,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么对治疗窗窄的药物（如华法林）需要进行治疗药物监测（TDM）？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 74078.99999999972,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "为什么克拉霉素与某些药物（如他汀类降脂药）合用时需要特别谨慎？其药代动力学原理是什么？",
+        "expected_level": "L3",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 109813.0000000001,
+        "predicted_level": "L3",
+        "level_correct": true
+      },
+      {
+        "question": "如果在机器学习项目中省略数据预处理步骤，可能会导致哪些问题？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 123593.00000000076,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设所有现有的AI系统都从弱人工智能升级为强人工智能，会对自动驾驶领域产生哪些根本性改变？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 110343.99999999914,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "如果在一个机器学习项目中，特征工程做得非常差，但其他步骤（如数据收集、模型选择、训练等）都完美执行，最终模型的性能会如何？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 92593.99999999914,
+        "predicted_level": "L3",
+        "level_correct": false
+      },
+      {
+        "question": "如果早期的感知机模型能够直接解决像XOR这样的非线性问题，那么后续深度学习的发展重点（例如多层感知机和非线性激活函数的引入）可能会如何演变？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 72922.00000000048,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "假设GPT模型放弃其单向解码器架构，转而采用类似BERT的双向编码器架构，这会如何影响它原本擅长的生成型任务（如文本生成、对话）的效果？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 96922.00000000048,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设在一个法律文档问答系统中，RAG 系统的数据摄入阶段采用了简单的‘固定大小分块’策略（例如每512个字符切分一次），可能会对最终的问答质量产生哪些潜在的负面影响？请基于文档内容进行推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 79718.99999999914,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "文档中提到的‘查询重写’技术是为了解决‘原始查询检索效果不好’的问题。请推断，如果系统完全不使用查询重写，在面对用户一个非常具体、包含大量专业术语的查询时，可能会遇到什么困难？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 82703.00000000134,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "在马尔可夫决策过程（MDP）的框架下，如果将折扣因子γ严格设置为1（γ=1），会对学习过程和智能体的目标产生什么根本性影响？这会带来哪些实际挑战？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 0.0,
+        "elapsed_ms": 48093.99999999914,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "文档指出REINFORCE算法“方差很大，导致训练不稳定”。假设在设计一个基于策略梯度的算法时，完全不使用Actor-Critic架构中的Critic作为基线（baseline），这会对训练效率产生何种具体影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 76563.0000000001,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "Q-Learning被描述为一种off-policy算法，其学习的目标策略（贪心策略）和行为策略（ε-贪心策略）不同。这种分离带来的最核心的优势是什么？如果强行将Q-Learning改为on-policy，可能会损失掉哪项关键能力？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 0.5,
+        "elapsed_ms": 77139.99999999942,
+        "predicted_level": "L2",
+        "level_correct": false
+      },
+      {
+        "question": "假设我们完全不使用梯度缩放技术，直接在混合精度训练中应用FP16，可能会对模型训练产生什么具体影响？请基于文档知识推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 108140.00000000124,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "如果梯度累积技术不存在，在训练一个参数量巨大但显存有限的模型时，会面临什么困境？这对模型的泛化能力可能有什么潜在影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 81235.00000000058,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "在动态损失缩放策略中，如果模型在训练中频繁发生梯度爆炸（导致inf/nan），这对缩放因子的调整和整体训练进程会产生什么连锁影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 57171.00000000028,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "如果一种大语言模型量化技术在理论上能够做到在量化后精度损失为零，这可能会对模型压缩和部署的生态产生哪些根本性影响？请基于文档中提到的量化技术背景进行推理。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 94281.99999999924,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "假设某团队开发了一种新的结构化剪枝技术，能够在移除模型中大部分注意力头和层的同时，性能损失极小，且无需对硬件做任何适配。这种技术如果普及，会对文档中提到的“服务化架构”中的在线推理和流式推理场景产生哪些直接影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 140000.0,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设一家初创公司计划为海外客户提供基于大语言模型的实时翻译和文档分析服务。他们拥有一定的 GPU 算力但预算有限，并且希望为用户提供流畅的实时交互体验（如聊天翻译）。请结合文档中涉及的模型压缩、推理加速和服务化架构知识，为他们设计一个简要的技术选型与部署方案，并说明理由。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 104188.0000000001,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "如果一个RAG系统为了极致提升召回率，决定仅采用HyDE技术进行查询改写，而不考虑延迟和成本。根据文档内容，这可能会对系统的哪些方面产生负面影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 42297.00000000048,
+        "predicted_level": "L1",
+        "level_correct": false
+      },
+      {
+        "question": "假设有一项技术突破，能够将Milvus在大规模数据下的资源消耗降低到接近FAISS的水平。根据文档内容，这会对实际系统中向量数据库的选型策略产生什么主要影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 106811.9999999999,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "文档指出‘语义分块’在主题转换处切分，效果最好但计算开销大。如果在一个对延迟要求极高的实时RAG系统中，又必须保持较高的检索语义准确性，你认为可以采用何种折中的工程方案？请基于文档中的其他技术进行推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 80561.9999999999,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设在一个 RAG 系统评估项目中，由于隐私或成本原因，无法为测试集标注任何“标准答案文档”。这会对评估方案的设计产生哪些根本性影响？我们还能从哪些角度评估系统？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 105936.9999999999,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "文档指出 RAGAS 之所以流行，是因为它用 LLM 作为评估器来自动计算生成质量指标。假设我们强制要求 RAGAS 不使用任何 LLM，只能基于明确规则（如关键词匹配、句子长度统计）来评估 Faithfulness（忠诚度）和 Answer Relevance（相关性），你认为这会导致什么后果？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 100922.00000000048,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设一种新情况：某人的1型糖尿病并非由自身免疫系统破坏胰岛β细胞引起，而是β细胞天生发育不全。根据文档对两种类型糖尿病的描述，这种情况在临床表现和治疗需求上，会更接近1型还是2型糖尿病？为什么？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.5,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 95796.99999999866,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "如果大环内酯类抗生素没有文档中提到的“较长的抗生素后效应（PAE）”，那么像阿奇霉素这类药物的临床给药方案（如短疗程）是否需要改变？请推断。",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 90765.00000000124,
+        "predicted_level": "L4",
+        "level_correct": true
+      },
+      {
+        "question": "假设通过基因工程技术使一种细菌的青霉素结合蛋白（PBP）结构发生改变，导致其对所有β-内酰胺类抗生素的亲和力都显著下降。这种细菌感染会导致文档中提到的哪类抗生素基本失效？治疗上可能需要转向哪类作用机制完全不同的抗生素？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 59859.00000000038,
+        "predicted_level": "L2",
+        "level_correct": false
+      },
+      {
+        "question": "文档指出，UKPDS研究证实HbA1c每降低1%，微血管并发症风险降低约37%。假设这项研究的结论被推翻，血糖控制与微血管并发症风险降低无关。这对糖尿病治疗的核心目标和药物选择策略会产生什么根本性影响？",
+        "expected_level": "L4",
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "faithfulness": 0.0,
+        "answer_relevance": 1.0,
+        "elapsed_ms": 118968.99999999914,
+        "predicted_level": "L4",
+        "level_correct": true
+      }
+    ]
+  },
+  "pairwise": {
+    "GradusRAG_wins": 85,
+    "LightRAG_wins": 8,
+    "Tie": 7,
+    "details": [
+      {
+        "question": "什么是人工智能？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了定义、研究领域和历史背景，增强了实用性和完整性"
+      },
+      {
+        "question": "什么是半监督学习？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "什么是梯度消失？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "什么是检索增强生成（RAG）的核心思想？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在机器学习中，强化学习（RL）属于哪一种范式？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "PPO（Proximal Policy Optimization）算法由哪家机构提出？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "策略梯度方法（如REINFORCE）的核心优化对象是什么？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "B更全面且准确，提供了具体的梯度估计公式，增强了实用性"
+      },
+      {
+        "question": "根据梯度下降中每次使用的训练数据量，可以将其分为哪三类？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B在全面性上覆盖了更多相关信息如优缺点和常用batch size，准确性上所有事实正确，实用性上对用户学习更有帮助"
+      },
+      {
+        "question": "Adam优化器的默认超参数 β₁、β₂ 和 ε 分别是多少？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A更全面，覆盖了更多相关信息，且准确性相同，实用性因提供详细解释而更有帮助"
+      },
+      {
+        "question": "什么是单周期策略？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "在混合精度训练中，梯度缩放技术的作用是什么？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A在表述上更详细和完整，覆盖了相同信息但解释更清晰，有助于更好地理解梯度缩放技术的作用和机制。"
+      },
+      {
+        "question": "什么是知识蒸馏（Knowledge Distillation）？它的核心思想是什么？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "B在准确性上更优，因为回答A有拼写错误（如'Knowledge Dist馏'），而内容结构更清晰，有助于理解"
+      },
+      {
+        "question": "什么是GGML/GGUF？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "在文档处理流水线中，文本分块有哪些主要策略？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A更全面，涵盖了分块大小选择的相关信息，实用性更强，准确性与B相当"
+      },
+      {
+        "question": "在RAG系统中，文档分块的经验平衡点是多少token？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在检索前，常见的查询改写技术包括哪几种？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在RAG系统中，Cross-Encoder 重排序器相比 Bi-Encoder 在相关性判断的精度上",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B更全面且实用，覆盖了精度提升的具体数值、技术原因和实际应用权衡，提供了更丰富的上下文和实用信息。"
+      },
+      {
+        "question": "根据文档，1型糖尿病和2型糖尿病在发病机制和治疗上有哪些主要区别？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，提供了详细的结构化分析，覆盖了发病机制和治疗策略的更多细节，并基于文档引用，同时增强了理解的实用性。"
+      },
+      {
+        "question": "高血压的诊断标准是什么？请列出其三级分类的血压范围。",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B更结构化，信息呈现更清晰，引用更细致，因此在全面性和实用性上更优"
+      },
+      {
+        "question": "糖尿病的诊断需要满足哪些具体指标？并请简要说明长期高血糖可能带来的两类主要并发症风险。",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，提供了具体统计数据增强实用性和全面性"
+      },
+      {
+        "question": "社区获得性肺炎（CAP）最常见的病原体是什么？",
+        "expected_level": "L1",
+        "winner": "Tie",
+        "reason": "两者质量相当"
+      },
+      {
+        "question": "CURB-65评分包括哪五个评估项目？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "B更简洁准确"
+      },
+      {
+        "question": "药代动力学相互作用主要影响药物在体内的哪些过程？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B更全面，涵盖基础过程并指出代谢相互作用的重点和具体机制，准确性相当但信息更丰富，对用户更有帮助"
+      },
+      {
+        "question": "CYP3A4在药物代谢中扮演什么角色？",
+        "expected_level": "L1",
+        "winner": "LightRAG",
+        "reason": "B在全面性上更详细描述了CYP3A4作为药物相互作用核心靶点的作用机制（如抑制剂减慢代谢、诱导剂加速代谢），准确性上表述更精确（如指定临床使用药物），实用性上通过加粗关键点和总结强调疗效安全性，对用户更有帮助。"
+      },
+      {
+        "question": "什么是X线检查？",
+        "expected_level": "L1",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "弱人工智能与强人工智能有什么核心区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，覆盖了能力范围、实现状态和认知方式三个维度，提供了更多细节、例子和引用，有助于用户深入理解核心区别"
+      },
+      {
+        "question": "监督学习和无监督学习的主要区别是什么？并各举一个应用场景。",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面且实用，提供了更详细的区别解释和应用选择建议"
+      },
+      {
+        "question": "监督学习和无监督学习在数据要求和任务类型上有何主要区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了更多细节、示例和总结，且同样准确，对用户更有帮助"
+      },
+      {
+        "question": "梯度消失和梯度爆炸有什么主要区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "卷积神经网络（CNN）和循环神经网络（RNN）分别适用于处理什么类型的数据？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了更多相关细节如处理机制、典型应用和计算特性对比，且准确性与A相当，实用性更强"
+      },
+      {
+        "question": "BERT和GPT在预训练范式和主要任务类型上有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在RAG的检索阶段，密集检索和稀疏检索各自的主要优势是什么？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面，解释了优势背后的技术支撑，并提供了实用的互补性分析和混合检索策略，对用户更有帮助。"
+      },
+      {
+        "question": "强化学习与监督学习的根本区别是什么？",
+        "expected_level": "L2",
+        "winner": "LightRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "策略梯度方法与基于价值函数的方法（如Q-Learning）在核心优化目标上有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "Adam优化器与它的改进版本AdamW在权重衰减（正则化）的实现方式上有何关键区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "混合精度训练与梯度累积分别主要解决什么问题？它们的核心思想有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更简洁准确"
+      },
+      {
+        "question": "模型剪枝中的非结构化剪枝和结构化剪枝，在稀疏度、硬件需求和加速效果方面有何区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "模型量化中的PTQ和QAT两种方法，在操作复杂度和预期精度上分别有什么特点？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在线推理和离线批处理在适用场景和延迟要求上有什么区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面、准确且实用。回答A详细覆盖了适用场景、延迟要求、处理方式与资源利用，并提供了具体例子和综合结论，引用更丰富；回答B虽然简洁，但信息较少，缺乏深度和上下文。"
+      },
+      {
+        "question": "Milvus、Chroma和FAISS这三种向量检索工具在适用规模和部署方式上有哪些主要区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，提供了更详细的分析、技术补充和总结表格，覆盖了更多相关信息，且事实准确无误。"
+      },
+      {
+        "question": "稠密检索与稀疏检索的核心区别是什么？混合检索是如何结合两者优势的？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面，提供了更多细节如模型类型、统计指标和具体融合过程，同时准确性高，实用性更强"
+      },
+      {
+        "question": "在 RAG 系统评估中，检索质量评估和生成质量评估在所需的数据标注和实现方法上主要有什么不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "糖尿病的微血管并发症与大血管并发症在具体疾病表现上有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在治疗糖尿病合并高血压患者时，为什么首选ACE抑制剂或ARB类药物？它们与其他降压药有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "β-内酰胺类抗生素和大环内酯类抗生素在作用机制上有何区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面，不仅涵盖了作用机制和杀菌特性的核心区别，还延伸到临床应用的相关考量，如药物相互作用和亚类演进，提供了更完整的视角。"
+      },
+      {
+        "question": "药代动力学相互作用和药效学相互作用的根本区别是什么？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "CYP3A4抑制剂和诱导剂对合用药物血浓度的影响有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面，提供了机制解释和临床意义，准确性高，实用性更强"
+      },
+      {
+        "question": "文档中提到的协同作用和拮抗作用，其效果分别是什么？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "寻常型间质性肺炎（UIP）和非特异性间质性肺炎（NSIP）在HRCT上的表现有什么区别？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "MRI与CT相比，在软组织对比度和辐射使用上有何不同？",
+        "expected_level": "L2",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，详细解释了成像原理、对比度差异原因和临床应用，信息更丰富。"
+      },
+      {
+        "question": "为什么人工智能在经历了两次“AI寒冬”后，近年来能够迎来第三次发展浪潮？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "为什么在机器学习中，监督学习需要带标签的数据，而无监督学习则不需要？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面，通过逐步推理详细解释了监督学习与无监督学习在目标差异、数据需求上的因果关系，覆盖了更多相关信息；准确性上两者都基于正确事实，但A的推理过程更深入；实用性上，A的结构化解释有助于用户深入理解概念，而B虽简洁但信息密度较低。"
+      },
+      {
+        "question": "为什么深度神经网络在使用Sigmoid或Tanh激活函数时容易出现梯度消失问题？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "Transformer中的自注意力（Self-Attention）机制是如何计算序列内部各位置之间的",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，详细解释了自注意力机制的计算过程，直接回答了问题。"
+      },
+      {
+        "question": "为什么 RAG 技术能够有效减少大语言模型生成虚假信息（即‘幻觉’）的问题？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，覆盖了RAG技术减少幻觉的多个机制，如幻觉原因、检索过程、约束生成、优化技术和闭环验证，内容基于引用且推理深入"
+      },
+      {
+        "question": "RAG 系统中采用的‘混合检索’策略是如何工作的，它为何能提升检索效果？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "在深度Q网络（DQN）中，经验回放（Experience Replay）具体是如何“打破样本之间的时",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "文档中提到PPO的核心思想是“限制每次策略更新的幅度”。为什么在策略梯度方法中，需要特别防范“因步长",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，它深入解释了策略梯度方法的优化本质、强化学习中的特殊敏感性（如分布偏移和梯度不稳定性），并详细说明了PPO的裁剪机制，覆盖更全面且基于准确的强化学习原理；而B相对简洁，但部分内容如'梯度爆炸'的类比可能不够精确。"
+      },
+      {
+        "question": "为什么在混合精度训练中，梯度缩放技术是必需的，它的工作原理是什么？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "梯度累积技术是如何解决GPU显存不足以容纳大batch size这个问题的？请解释其具体机制。",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "为什么 vLLM 的 PagedAttention 技术能显著提升大语言模型（LLM）的吞吐量？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "为什么文档指出，尽管知识蒸馏损失函数中包含了交叉熵损失（CE），但教师模型的“暗知识”是更关键的监督",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，详细解释了硬标签与软标签的差异、温度参数的作用及'暗知识'如何提升泛化能力，覆盖更多信息且对用户更有帮助"
+      },
+      {
+        "question": "为什么在RAG系统中，分块大小的选择（如512-1024 token）通常被认为是‘较好的平衡点’？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面，详细解释了根本矛盾、不同查询类型的具体需求、实践折中策略和工程考量，准确性与B相当，但提供更深入的分析，实用性更高"
+      },
+      {
+        "question": "请解释‘混合检索’通过融合稠密检索和稀疏检索，为什么通常能比单独使用任一方法获得更好（10-20%）",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "为什么在评估 RAG 系统的检索质量时，通常需要为每道问题预先标注“标准答案文档”（ground t",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更简洁准确"
+      },
+      {
+        "question": "文档中提到的 RAGAS 框架是如何实现自动计算像 Faithfulness、Answer Rele",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用"
+      },
+      {
+        "question": "对于没有标准答案的开放式问题，在端到端评估 RAG 系统时，文档建议使用什么方法来评价回答质量？这种",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "为什么2型糖尿病患者体内胰岛素水平可能正常甚至偏高，但血糖仍然升高？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "为什么ACE抑制剂和ARB类药物被推荐用于糖尿病合并高血压的患者？请解释其药理和生理学依据。",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面，详细解释了糖尿病和高血压对肾脏的协同损害机制，以及ACE抑制剂和ARB的具体药理作用（如降低肾小球内压、抗纤维化），并关联临床证据，对用户理解更有帮助。"
+      },
+      {
+        "question": "β-内酰胺类抗生素为什么被描述为时间依赖性抗生素？这对其临床用药方案有什么指导意义？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，覆盖了作用机制、定义、临床指导原则和具体策略，而B仅简要总结核心点"
+      },
+      {
+        "question": "请解释CURB-65评分中各项指标（如意识障碍、呼吸频率快等）与肺炎严重程度之间的病理生理联系。",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面准确且实用"
+      },
+      {
+        "question": "为什么硝酸甘油通常采用舌下含服而不是口服给药？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更简洁准确"
+      },
+      {
+        "question": "为什么肾功能不全的患者使用经肾排泄的药物时，通常需要调整给药剂量或间隔？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确，它逐步推理了药物在体内的处置过程，详细解释了肾功能不全导致半衰期延长、药物蓄积和中毒风险的完整因果链，并提出了具体的调整策略（如减少剂量、延长间隔），实用性更强。"
+      },
+      {
+        "question": "为什么对治疗窗窄的药物（如华法林）需要进行治疗药物监测（TDM）？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，覆盖了治疗窗定义、药代动力学因素、药物相互作用等关键点，解释详细，实用性更强。"
+      },
+      {
+        "question": "为什么克拉霉素与某些药物（如他汀类降脂药）合用时需要特别谨慎？其药代动力学原理是什么？",
+        "expected_level": "L3",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "如果在机器学习项目中省略数据预处理步骤，可能会导致哪些问题？",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面地覆盖了相关风险，包括偏见与公平性问题，且准确性高，对用户更有帮助"
+      },
+      {
+        "question": "假设所有现有的AI系统都从弱人工智能升级为强人工智能，会对自动驾驶领域产生哪些根本性改变？",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，它详细覆盖了技术、学习、功能、硬件和责任等多个维度，并提供了具体例子和潜在挑战，而A仅聚焦核心推断，信息量较少。"
+      },
+      {
+        "question": "如果在一个机器学习项目中，特征工程做得非常差，但其他步骤（如数据收集、模型选择、训练等）都完美执行，",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "如果早期的感知机模型能够直接解决像XOR这样的非线性问题，那么后续深度学习的发展重点（例如多层感知机",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且提供了基于逻辑的推理，对用户更有帮助"
+      },
+      {
+        "question": "假设GPT模型放弃其单向解码器架构，转而采用类似BERT的双向编码器架构，这会如何影响它原本擅长的生",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，它详细解释了自回归机制、掩码注意力、信息泄露等技术细节，并覆盖了潜在优势的有限性；同时保持准确性，基于可靠的技术原理。"
+      },
+      {
+        "question": "假设在一个法律文档问答系统中，RAG 系统的数据摄入阶段采用了简单的‘固定大小分块’策略（例如每51",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面、准确且实用，覆盖了更多相关负面影响并提供优化建议"
+      },
+      {
+        "question": "文档中提到的‘查询重写’技术是为了解决‘原始查询检索效果不好’的问题。请推断，如果系统完全不使用查询",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用"
+      },
+      {
+        "question": "在马尔可夫决策过程（MDP）的框架下，如果将折扣因子γ严格设置为1（γ=1），会对学习过程和智能体的",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，它在承认资料不足的同时，提供了更多相关背景信息和潜在挑战的暗示，增强了回答的完整性和实用性。"
+      },
+      {
+        "question": "文档指出REINFORCE算法“方差很大，导致训练不稳定”。假设在设计一个基于策略梯度的算法时，完全",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确，它提供了关于梯度估计、收敛速度、训练稳定性、学习率敏感度和探索效率的具体影响，基于强化学习的标准知识，对用户更有帮助。"
+      },
+      {
+        "question": "Q-Learning被描述为一种off-policy算法，其学习的目标策略（贪心策略）和行为策略（ε",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "假设我们完全不使用梯度缩放技术，直接在混合精度训练中应用FP16，可能会对模型训练产生什么具体影响？",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了训练后期精细调整和收敛速度等额外细节，实用性更强"
+      },
+      {
+        "question": "如果梯度累积技术不存在，在训练一个参数量巨大但显存有限的模型时，会面临什么困境？这对模型的泛化能力可",
+        "expected_level": "L4",
+        "winner": "LightRAG",
+        "reason": "B更准确，严格遵守参考资料，避免了超出资料的推断，确保了事实的可靠性"
+      },
+      {
+        "question": "在动态损失缩放策略中，如果模型在训练中频繁发生梯度爆炸（导致inf/nan），这对缩放因子的调整和整",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面，直接描述了缩放因子减小和梯度下溢风险的连锁影响，覆盖了问题的核心方面，且事实准确，对用户更有帮助。"
+      },
+      {
+        "question": "如果一种大语言模型量化技术在理论上能够做到在量化后精度损失为零，这可能会对模型压缩和部署的生态产生哪",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "假设某团队开发了一种新的结构化剪枝技术，能够在移除模型中大部分注意力头和层的同时，性能损失极小，且无",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面且实用，覆盖了在线推理和流式推理的全部场景，内容合理且引用更多资料标记"
+      },
+      {
+        "question": "假设一家初创公司计划为海外客户提供基于大语言模型的实时翻译和文档分析服务。他们拥有一定的 GPU 算",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面且准确"
+      },
+      {
+        "question": "如果一个RAG系统为了极致提升召回率，决定仅采用HyDE技术进行查询改写，而不考虑延迟和成本。根据文",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了延迟和成本的负面影响，并澄清这些影响针对效率和成本而非检索质量，准确性高且对用户更有帮助。"
+      },
+      {
+        "question": "假设有一项技术突破，能够将Milvus在大规模数据下的资源消耗降低到接近FAISS的水平。根据文档内",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了从个人选型到行业趋势的更多影响，并在实用性上提供了更具体的场景分析"
+      },
+      {
+        "question": "文档指出‘语义分块’在主题转换处切分，效果最好但计算开销大。如果在一个对延迟要求极高的实时RAG系统",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "假设在一个 RAG 系统评估项目中，由于隐私或成本原因，无法为测试集标注任何“标准答案文档”。这会对",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "A更全面且准确"
+      },
+      {
+        "question": "文档指出 RAGAS 之所以流行，是因为它用 LLM 作为评估器来自动计算生成质量指标。假设我们强制",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更简洁准确"
+      },
+      {
+        "question": "假设一种新情况：某人的1型糖尿病并非由自身免疫系统破坏胰岛β细胞引起，而是β细胞天生发育不全。根据文",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面，覆盖了病理生理、治疗和临床表现，并基于文档进行了准确推理，对用户更有帮助"
+      },
+      {
+        "question": "如果大环内酯类抗生素没有文档中提到的“较长的抗生素后效应（PAE）”，那么像阿奇霉素这类药物的临床给",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用，覆盖了PAE定义、给药方案关系、阿奇霉素具体案例及临床建议，对用户更有帮助"
+      },
+      {
+        "question": "假设通过基因工程技术使一种细菌的青霉素结合蛋白（PBP）结构发生改变，导致其对所有β-内酰胺类抗生素",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面、准确且实用"
+      },
+      {
+        "question": "文档指出，UKPDS研究证实HbA1c每降低1%，微血管并发症风险降低约37%。假设这项研究的结论被",
+        "expected_level": "L4",
+        "winner": "GradusRAG",
+        "reason": "B更全面且实用，基于假设进行合理推理"
+      }
+    ]
+  }
+}

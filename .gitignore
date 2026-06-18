@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+config/settings.yaml
+config/expand_settings.yaml
+!config/settings.yaml.example
+!config/expand_settings.yaml.example
+
+# Data - documents (large files, not tracked)
+data/documents/*
+!data/documents/.gitkeep
+
+# Data - test sets (tracked, these are important)
+!data/test_sets/
+
+# Data - generated files
+data/db/
+data/bm25_state.json
+data/bm25_inverted_index.json
+data/knowledge_graph.json
+data/documents_backup/
+
+# Logs
+logs/
+*.log
+
+# Milvus / Docker data
+etcd_data/
+minio_data/
+milvus_data/
+postgres_data/
+redis_data/
+
+# Evaluation results - keep final, ignore progress
+results/*_progress.json
+results/eval_progress.json
+results/comparison_progress.json
+results/generate_progress.json
+results/expand_progress.json
+results/expand_log.txt
+results/generate_log.txt
+
+# Temporary and generated files
+*.tmp
+*.bak
+_temp_*
+data/test_sets/audit_review.md
+data/test_sets/audit_review.html
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Paper (not tracked in repo)
+paper/
+
+# Internal docs (not for public repo)
+ARCHITECTURE.md
+DESIGN_ANALYSIS.md
+SETUP_GUIDE.md
+TESTING_PLAN.md
+操作手册.md
+ANALYSIS_AND_PLAN.md
+EXPERIMENT_PLAN_V3.md
+lib/
+zenlesss/

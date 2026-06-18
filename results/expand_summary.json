@@ -1,0 +1,17 @@
+{
+  "total": 1,
+  "success": 1,
+  "skipped": 0,
+  "failed": 0,
+  "target_chars": 15000,
+  "results": [
+    {
+      "file": "05_强化学习原理与应用.md",
+      "before": 13115,
+      "after": 13050,
+      "parts": 1,
+      "status": "done"
+    }
+  ],
+  "timestamp": "2026-06-16T15:41:25.711183"
+}

@@ -1,0 +1,13 @@
+[
+  "What are the specific roles played by Alex Borstein in 'Family Guy' compared to the character design origins of Meg Griffin described in the text?",
+  "How does the depiction of Hamza as the strongest man of the Quraysh contrast with the characterization of evil forces in Lee Thompson's film themes?",
+  "List the films directed or contributed to by Lee Thompson that feature Veronica Lake or Mary Astor, and identify the common thematic struggle present in his work.",
+  "What is the relationship between the production history of 'Udhayam NH4' involving Siddharth and the dubbing practices mentioned for Sharwanand in Tamil cinema?",
+  "Compare the mathematical representation of the step function in $\mathbb{J}^R_{\rm inf}$ with the physical description of the pinnace moving like a cloud in Shelley's poem.",
+  "How do the environmental parameters affecting plasticity in artificial neural networks differ from the fixed initial weights set to the average of E1 and E2 in the simplified experiment?",
+  "What causal link exists between the introduction of artificial surfaces in baseball and the strategic shift towards building teams around pitching bullpens?",
+  "Explain how the coevolution of static connectivity and plasticity mechanisms in sub-networks influences the optimal balance between learned and innate behaviors.",
+  "Why would the smearing of the jump in the inferred step function $\mathbb{J}^R_{\rm inf}$ necessitate more data to make conclusive assertions about environmental parameters?",
+  "How does the multilingual switching mechanism in the described department depend on the scene's setting, and how might this relate to the localization strategies seen in the Tamil dubbing of 'Udhayam NH4'?",
+  "What would happen to the output distribution defined by the product formula if the transition probability was not set to 0 but instead allowed to vary dynamically?",
+  "Suppose the 'JK Fest 2013' project initiated by Cheran had focused on professional actors instead
