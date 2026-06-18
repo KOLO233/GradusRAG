@@ -1,4 +1,4 @@
-"""GradusRAG Streamlit 前端 — SuperMew 风格。
+"""GradusRAG Streamlit 前端。
 
 居中卡片式布局，带背景纹理，类似聊天应用。
 """

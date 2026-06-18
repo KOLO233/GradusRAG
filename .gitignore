@@ -34,17 +34,17 @@ config/expand_settings.yaml
 
 # Data - documents (large files, not tracked)
 data/documents/*
+data/documents_backup/
 !data/documents/.gitkeep
 
-# Data - test sets (tracked, these are important)
-!data/test_sets/
+# Data - test sets (generated, not tracked)
+data/test_sets/
 
 # Data - generated files
 data/db/
 data/bm25_state.json
 data/bm25_inverted_index.json
 data/knowledge_graph.json
-data/documents_backup/
 
 # Logs
 logs/
@@ -57,21 +57,13 @@ milvus_data/
 postgres_data/
 redis_data/
 
-# Evaluation results - keep final, ignore progress
-results/*_progress.json
-results/eval_progress.json
-results/comparison_progress.json
-results/generate_progress.json
-results/expand_progress.json
-results/expand_log.txt
-results/generate_log.txt
+# Evaluation results (generated, not tracked)
+results/
 
 # Temporary and generated files
 *.tmp
 *.bak
 _temp_*
-data/test_sets/audit_review.md
-data/test_sets/audit_review.html
 
 # Streamlit
 .streamlit/secrets.toml
@@ -80,12 +72,4 @@ data/test_sets/audit_review.html
 paper/
 
 # Internal docs (not for public repo)
-ARCHITECTURE.md
-DESIGN_ANALYSIS.md
-SETUP_GUIDE.md
-TESTING_PLAN.md
-操作手册.md
-ANALYSIS_AND_PLAN.md
-EXPERIMENT_PLAN_V3.md
-lib/
-zenlesss/
+
