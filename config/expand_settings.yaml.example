@@ -1,8 +1,0 @@
-# 扩写脚本专用配置（复制为 expand_settings.yaml 并填入 API key）
-llm:
-  provider: "openai"
-  model: "mimo-v2.5-pro"
-  temperature: 0.5
-  max_tokens: 32768
-  api_key: "YOUR_API_KEY_HERE"
-  base_url: "https://token-plan-cn.xiaomimimo.com/v1"

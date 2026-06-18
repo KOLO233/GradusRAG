@@ -28,9 +28,7 @@ Thumbs.db
 .env
 *.env.local
 config/settings.yaml
-config/expand_settings.yaml
 !config/settings.yaml.example
-!config/expand_settings.yaml.example
 
 # Data - documents (large files, not tracked)
 data/documents/*
@@ -73,3 +71,5 @@ paper/
 
 # Internal docs (not for public repo)
 
+lib/
+tests/
